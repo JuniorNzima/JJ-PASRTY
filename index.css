@@ -1,0 +1,1431 @@
+@font-face {
+    font-family: 'aileronlight_italic';
+    src: url('Polices/aileron/Aileron-LightItalic-webfont.eot');
+    src: url('Polices/aileron/Aileron-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Polices/aileron/Aileron-LightItalic-webfont.woff') format('woff'),
+         url('Polices/aileron/Aileron-LightItalic-webfont.ttf') format('truetype'),
+         url('Polices/aileron/Aileron-LightItalic-webfont.svg#aileronlight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500&family=Dancing+Script&display=swap');
+
+
+html
+{
+    scroll-behavior : smooth ;
+}
+
+
+body
+{
+    margin : 0 ;
+    padding : 0 ;
+    font-family : "open sans" , sans-serif ;
+    background-color : #EAE0DA ;
+}
+
+body header .div1_header .div1_1_header
+{
+    border : 2px #e96d9e solid ;
+    border-radius : 20px ;
+    height: 500px ;
+    width : 60% ;
+    margin : 5% ;
+    background-image: url("img/cake-2856551_1920.jpg");
+
+    -webkit-animation-name: diapo1 ;
+    -webkit-animation-duration: 35s ;
+    -webkit-animation-timing-function: linear ;
+    -webkit-animation-iteration-count: infinite ;
+    -webkit-animation-direction: normal ;
+
+    -moz-animation-name: diapo1 ;
+    -moz-animation-duration: 35s ;
+    -moz-animation-timing-function: linear ;
+    -moz-animation-iteration-count: infinite ;
+    -moz-animation-direction :normal ;
+
+    -o-animation-name: diapo1 ;
+    -o-animation-duration: 35s ;
+    -o-animation-timing-function: linear ;
+    -o-animation-iteration-count: infinite ;
+    -o-animation-direction: normal ;
+
+    animation-name: diapo1 ;
+    animation-duration: 35s ;
+    animation-timing-function: linear ;
+    animation-iteration-count: infinite ;
+    animation-direction: normal ;
+}
+
+@-webkit-keyframes diapo1
+{
+    0% { background-image: url("img/cake-2856551_1920.jpg"); background-size: 100% 100% ; }
+    17% { background-image: url("img/cake-1792115_1920.jpg"); background-size: 100% 100% ; }
+    37% { background-image: url("img/bakery-1868396_1920.jpg"); background-size: 100% 100% ; }
+    57% { background-image: url("img/cookie-756601_1920.jpg");  background-size: 100% 100% ; }
+    77% { background-image: url("img/stollen-1768907_1920.jpg"); background-size: 100% 100% ; }
+    100% { background-image: url("img/cake-2856551_1920.jpg"); background-size: 100% 100% ; }
+} 
+
+@-moz-keyframes diapo1
+{
+    0% { background-image: url("img/cake-2856551_1920.jpg");  background-size: 100% 100% ; }
+    17% { background-image: url("img/cake-1792115_1920.jpg");  background-size: 100% 100% ; }
+    37% { background-image: url("img/bakery-1868396_1920.jpg");  background-size: 100% 100% ; }
+    57% { background-image: url("img/cookie-756601_1920.jpg");  background-size: 100% 100% ; }
+    77% { background-image: url("img/stollen-1768907_1920.jpg");  background-size: 100% 100% ; }
+    100% { background-image: url("img/cake-2856551_1920.jpg"); background-size: 100% 100% ; }
+} 
+
+@-o-keyframes diapo1
+{
+    0% { background-image: url("img/cake-2856551_1920.jpg");  background-size: 100% 100% ; }
+    17% { background-image: url("img/cake-1792115_1920.jpg");  background-size: 100% 100% ; }
+    37% { background-image: url("img/bakery-1868396_1920.jpg");  background-size: 100% 100% ; }
+    57% { background-image: url("img/cookie-756601_1920.jpg");  background-size: 100% 100% ; }
+    77% { background-image: url("img/stollen-1768907_1920.jpg");  background-size: 100% 100% ; }
+    100% { background-image: url("img/cake-2856551_1920.jpg"); background-size: 100% 100% ; }
+} 
+
+@keyframes diapo1
+{
+    0% { background-image: url("img/cake-2856551_1920.jpg");  background-size: 100% 100% ; }
+    17% { background-image: url("img/cake-1792115_1920.jpg");  background-size: 100% 100% ; }
+    37% { background-image: url("img/bakery-1868396_1920.jpg");  background-size: 100% 100% ; }
+    57% { background-image: url("img/cookie-756601_1920.jpg");  background-size: 100% 100% ; }
+    77% { background-image: url("img/stollen-1768907_1920.jpg");  background-size: 100% 100% ; }
+    100% { background-image: url("img/cake-2856551_1920.jpg"); background-size: 100% 100% ; }
+} 
+
+body header .div1_header 
+{
+    display : flex ;
+    justify-content: space-evenly ;
+}
+
+body header .div1_header .div1_2_header
+{
+    width: 40% ;
+    padding : 2% ;
+    line-height: 1.5 ;
+}
+
+body header .div2_header 
+{
+    position : absolute ; 
+    top : 35% ;
+    left : 25% ;
+    text-align : center ;
+}
+
+body header nav 
+{   
+    background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url("img2/colorful-gb4800f055_1920.jpg") ;
+    background-attachment: fixed ;
+    background-size: cover ;
+    height: 100vh ;
+
+    -webkit-animation-name : diapo2 ;
+    -webkit-animation-duration: 20s ;
+    -webkit-animation-timing-function: linear ;
+    -webkit-animation-iteration-count: infinite ;
+    -webkit-animation-direction: normal ;
+
+    -moz-animation-name : diapo2 ;
+    -moz-animation-duration: 20s ;
+    -moz-animation-timing-function: linear ;
+    -moz-animation-iteration-count: infinite ;
+    -moz-animation-direction: normal ;
+
+    -o-animation-name : diapo2 ;
+    -o-animation-duration: 20s ;
+    -o-animation-timing-function: linear ;
+    -o-animation-iteration-count: infinite ;
+    -o-animation-direction: normal ;
+
+    animation-name : diapo2 ;
+    animation-duration: 20s ;
+    animation-timing-function: linear ;
+    animation-iteration-count: infinite ;
+    animation-direction: normal ;
+}
+
+
+@-webkit-keyframes diapo2
+{
+    0% { 
+        background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url("img2/colorful-gb4800f055_1920.jpg") ;
+        background-size: cover ;
+    }
+    
+    25% {
+        background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url("img2/cake-g41f3238f6_1920.jpg") ;
+        background-size: cover ;
+    }
+
+    50% {
+        background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url("img2/christmas-cookies-gf4f0298a4_1920.jpg") ;
+        background-size : 100% 100% ;
+    }
+
+    75% {
+        background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url("img2/cake-g0852ae9e7_1920.jpg") ;
+        background-size : 100% 100% ;
+    }
+
+    100% { 
+        background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url("img2/colorful-gb4800f055_1920.jpg") ;
+    }
+}
+
+@-moz-keyframes diapo2
+{
+    0% { 
+        background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url("img2/colorful-gb4800f055_1920.jpg") ;
+        background-size: cover ;
+    }
+    
+    25% {
+        background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url("img2/cake-g41f3238f6_1920.jpg") ;
+        background-size: cover ;
+    }
+
+    50% {
+        background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url("img2/christmas-cookies-gf4f0298a4_1920.jpg") ;
+        background-size : 100% 100% ;
+    }
+
+    75% {
+        background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url("img2/cake-g0852ae9e7_1920.jpg") ;
+        background-size : 100% 100% ;
+    }
+
+    100% { 
+        background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url("img2/colorful-gb4800f055_1920.jpg") ;
+    }
+}
+
+@-o-keyframes diapo2
+{
+    0% { 
+        background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url("img2/colorful-gb4800f055_1920.jpg") ;
+        background-size: cover ;
+    }
+    
+    25% {
+        background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url("img2/cake-g41f3238f6_1920.jpg") ;
+        background-size: cover ;
+    }
+
+    50% {
+        background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url("img2/christmas-cookies-gf4f0298a4_1920.jpg") ;
+        background-size : 100% 100% ;
+    }
+
+    75% {
+        background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url("img2/cake-g0852ae9e7_1920.jpg") ;
+        background-size : 100% 100% ;
+    }
+
+    100% { 
+        background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url("img2/colorful-gb4800f055_1920.jpg") ;
+    }
+}
+
+
+
+@keyframes diapo2
+{
+    0% { 
+        background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url("img2/colorful-gb4800f055_1920.jpg") ;
+        background-size: cover ;
+    }
+    
+    25% {
+        background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url("img2/cake-g41f3238f6_1920.jpg") ;
+        background-size: cover ;
+    }
+
+    50% {
+        background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url("img2/christmas-cookies-gf4f0298a4_1920.jpg") ;
+        background-size : 100% 100% ;
+    }
+
+    75% {
+        background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url("img2/cake-g0852ae9e7_1920.jpg") ;
+        background-size : 100% 100% ;
+    }
+
+    100% { 
+        background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url("img2/colorful-gb4800f055_1920.jpg") ;
+        background-size: cover ;
+    }
+}
+
+
+body header nav .div_nav
+{
+    display: flex ;
+    align-items: center ;
+    justify-content: space-evenly ;
+    flex-wrap: wrap ;
+    height: 10% ;
+    width: 80% ;
+    margin : auto ;
+    
+    background: -webkit-linear-gradient(left , #e96d9e , rgb(128, 120, 120) );
+    background: -moz-linear-gradient(right , #e96d9e , rgb(128, 120, 120) );
+    background: -o-linear-gradient(right , #e96d9e , rgb(128, 120, 120) );
+    background: linear-gradient(to right , #e96d9e , rgb(128, 120, 120) );
+    background: linear-gradient(to right , #fc0467 , rgb(59, 51, 51) );
+}
+
+body header nav .div_nav span a
+{
+    text-transform: uppercase ;
+    color : #fff ;
+    text-decoration: none ;
+    font-weight : bold ;
+    font-size: 0.8em ;
+}
+
+body header nav i
+{
+    color : rgba(13, 13, 116, 0.692) ;
+}
+
+body header nav .div_nav span a:hover
+{
+    font-size: 1.3em ;
+    text-decoration: overline ;
+}
+
+h1
+{
+    text-align: center ;
+    color : #e96d9e ;
+    font-size: 3em ;
+}
+
+hr
+{
+    width: 70% ;
+    color : #e96d9e ;
+    font-weight: bold ;
+}
+
+/* -------------------------------- DEBUT SECTION 1 -----------------------------------------*/
+
+body .section_principale .section1 div
+{
+    width: 300px ;
+    height: 300px ;
+}
+
+body .section_principale .section1
+{
+    display : flex ;
+    justify-content: space-evenly ;
+    flex-wrap: wrap ;
+}
+
+body .section_principale input
+{
+    border : 2px #e96d9e solid ;
+    border-radius : 10px ;
+    outline : none ;
+    padding : 2% ;
+    color :#074783 ;
+    font-size: 1em ;
+    padding : 5% ;
+}
+
+body .section_principale span
+{
+    text-align : center ;
+}
+
+body .section_principale input:hover
+{
+    background-color : #e96d9e ;
+}
+
+body .section_principale .section1 .div1_section1
+{
+    background-image: url("img/orange-cake-398966_1920.jpg") ;
+    background-size: cover ;
+    border : 2px #e96d9e solid ;
+    border-radius : 20px ;
+}
+
+
+body .section_principale .section1_1 div
+{
+    width: 300px ;
+    height : 150px ;
+}
+
+body .section_principale .section1_1
+{
+    display : flex ;
+    justify-content: space-evenly ;
+    flex-wrap: wrap ;
+}
+
+body .section_principale .section1_1 .div1_section1_1 
+{
+    display: flex ;
+    flex-direction: column ;
+    justify-content : space-evenly ;
+    flex-wrap: wrap ;
+    align-items: center ;
+    font-size: 1.3em ;
+    color :#074783 ;
+}
+
+body .section_principale .section1 .div2_section1
+{
+    background-image: url("img/donuts-4633040_1920.jpg") ;
+    background-size: cover ;
+    border : 2px #e96d9e solid ;
+    border-radius : 20px ;
+}
+
+
+body .section_principale .section1_1 .div2_section1_1 
+{
+    display: flex ;
+    flex-direction: column ;
+    justify-content : space-evenly ;
+    flex-wrap: wrap ;
+    align-items: center ;
+    font-size: 1.3em ;
+    color :#074783 ;
+}
+
+body .section_principale .section1 .div3_section1
+{
+    background-image: url("img/cupcakes-1850628_1920.jpg") ;
+    background-size: cover ;
+    border : 2px #e96d9e solid ;
+    border-radius : 20px ;
+}
+
+body .section_principale .section1_1 .div3_section1_1 
+{
+    display: flex ;
+    flex-direction: column ;
+    justify-content : space-evenly ;
+    flex-wrap: wrap ;
+    align-items: center ;
+    font-size: 1.3em ;
+    color :#074783 ;
+}
+
+.section1_1 input , .section2_2 input , .section3_3 input , .section4_4 input
+{
+    cursor : pointer ;
+}
+
+/*----------------------------------------- FIN SECTION 1 -----------------------------------------*/
+
+
+
+/* -------------------------------- DEBUT SECTION 2 -----------------------------------------*/
+
+body .section_principale .section2 div
+{
+    width: 300px ;
+    height: 300px ;
+}
+
+body .section_principale .section2
+{
+    display : flex ;
+    justify-content: space-evenly ;
+    flex-wrap: wrap ;
+}
+
+body .section_principale .section2 .div1_section2
+{
+    background-image: url("img/cupcake-279523_1920.jpg") ;
+    background-size: cover ;
+    border : 2px #e96d9e solid ;
+    border-radius : 20px ;
+}
+
+
+body .section_principale .section2_2 div
+{
+    width: 300px ;
+    height: 150px ;
+}
+
+body .section_principale .section2_2
+{
+    display : flex ;
+    justify-content: space-evenly ;
+    flex-wrap: wrap ;
+}
+
+body .section_principale .section2_2 .div1_section2_2 
+{
+    display: flex ;
+    flex-direction: column ;
+    justify-content : space-evenly ;
+    flex-wrap: wrap ;
+    align-items: center ;
+    font-size: 1.3em ;
+    color :#074783 ;
+}
+
+body .section_principale .section2 .div2_section2
+{
+    background-image: url("img/cupcake-268237_1920.jpg") ;
+    background-size: cover ;
+    border : 2px #e96d9e solid ;
+    border-radius : 20px ;
+}
+
+body .section_principale .section2_2 .div2_section2_2 
+{
+    display: flex ;
+    flex-direction: column ;
+    justify-content : space-evenly ;
+    flex-wrap: wrap ;
+    align-items: center ;
+    font-size: 1.3em ;
+    color :#074783 ;
+}
+
+body .section_principale .section2 .div3_section2
+{
+    background-image: url("img/cake-1971552_1920.jpg") ;
+    background-size: cover ;
+    border : 2px #e96d9e solid ;
+    border-radius : 20px ;
+}
+
+body .section_principale .section2_2 .div3_section2_2 
+{
+    display: flex ;
+    flex-direction: column ;
+    justify-content : space-evenly ;
+    flex-wrap: wrap ;
+    align-items: center ;
+    font-size: 1.3em ;
+    color :#074783 ;
+}
+
+/*----------------------------------------- FIN SECTION 2 -----------------------------------------*/
+
+
+
+/* -------------------------------- DEBUT SECTION 3 -----------------------------------------*/
+
+body .section_principale .section3 div
+{
+
+    width: 300px ;
+    height: 300px ;
+}
+
+body .section_principale .section3
+{
+    display : flex ;
+    justify-content: space-evenly ;
+    flex-wrap: wrap ;
+}
+
+body .section_principale .section3 .div1_section3
+{
+    background-image: url("img/berliner-17811_1920.jpg") ;
+    background-size: cover ;
+    border : 2px #e96d9e solid ;
+    border-radius : 20px ;
+}
+
+
+body .section_principale .section3_3 div
+{
+    width: 300px ;
+    height: 150px ;
+}
+
+body .section_principale .section3_3
+{
+    display : flex ;
+    justify-content: space-evenly ;
+    flex-wrap: wrap ;
+}
+
+body .section_principale .section3_3 .div1_section3_3 
+{
+    display: flex ;
+    flex-direction: column ;
+    justify-content : space-evenly ;
+    flex-wrap: wrap ;
+    align-items: center ;
+    font-size: 1.3em ;
+    color :#074783 ;
+}
+
+body .section_principale .section3 .div2_section3
+{
+    background-image: url("img/cake-2558610_1920.jpg") ;
+    background-size: cover ;
+    border : 2px #e96d9e solid ;
+    border-radius : 20px ;
+}
+
+body .section_principale .section3_3 .div2_section3_3 
+{
+    display: flex ;
+    flex-direction: column ;
+    justify-content : space-evenly ;
+    flex-wrap: wrap ;
+    align-items: center ;
+    font-size: 1.3em ;
+    color :#074783 ;
+}
+
+body .section_principale .section3 .div3_section3
+{
+    background-image: url("img/cake-2201853_1920.jpg") ;
+    background-size: cover ;
+    border : 2px #e96d9e solid ;
+    border-radius : 20px ;
+}
+
+body .section_principale .section3_3 .div3_section3_3 
+{
+    display: flex ;
+    flex-direction: column ;
+    justify-content : space-evenly ;
+    flex-wrap: wrap ;
+    align-items: center ;
+    font-size: 1.3em ;
+    color :#074783 ;
+}
+
+/*----------------------------------------- FIN SECTION 3 -----------------------------------------*/
+
+
+body .div1_body
+{
+    width: 60% ;
+    margin : auto ;
+    text-align: justify ;
+}
+
+ body .section_principale .section4
+{
+    display : flex ;
+    justify-content: space-around ;
+} 
+
+body .section_principale .section4 aside
+{
+    line-height: 2 ;
+}
+
+body .section_principale .section4 .div1_section4 
+{
+    border : 2px #e96d9e solid ;
+    border-radius : 20px ;
+    width: 500px ;
+    height: 300px ;
+    background-image: url("img2/wedding-g14124f690_1920.jpg") ;
+    background-size: cover ;
+}
+
+body .section_principale .section4 .div1_section4 #span1_div1_section4
+{
+    width : 45% ;
+    height : 50px ;
+    background-color : #fc0467 ;
+    color :#fffae1 ;
+    text-align : center ;
+    float : right ;
+    margin : 70px -160px 0 0 ;
+    padding-top : 8px ;
+    box-shadow : 6px 6px 0px #e96d9e ;
+}
+
+body .section_principale .section4 .div1_section4:hover + .div2_section4 
+{
+    visibility : visible ;
+}
+
+body .section_principale .section4 .div2_section4 
+{
+    width: 250px ;
+    height: 200px ;
+    align-self: center ;
+    text-align : center ;
+    visibility: hidden ;
+    transition : visibility 1s linear ;
+}
+
+
+body .section_principale .section5
+{
+    display : flex ;
+    justify-content : space-around ;
+    flex-direction : row-reverse ;
+    line-height : 2 ;
+}
+
+body .section_principale .section5 .div1_section5 
+{
+    border : 2px #0066cc solid ;
+    border-radius : 20px ;
+    width: 500px ;
+    height: 300px ;
+    background-image : url("img2/strawberry-dessert-g9b78af732_1920.jpg") ;
+    background-size: cover ;
+}
+
+body .section_principale .section5 .div1_section5 #span1_div1_section5
+{
+    width : 45% ;
+    height : 50px ;
+    background-color : #074783 ;
+    color : #fffae1 ;
+    text-align : center ;
+    float : left ;
+    margin : 70px 0 0 -160px ;
+    padding-top : 8px ;
+    box-shadow : -6px 6px 0px #0066cc ;
+}
+
+body .section_principale .section5 .div1_section5:hover + .div2_section5
+{
+    visibility : visible ;
+}
+
+body .section_principale .section5 .div2_section5 
+{
+    width: 250px ;
+    height: 200px ;
+    align-self: center ;
+    text-align : center ;
+    visibility : hidden ;
+    transition : visibility 1s linear ;
+}
+
+
+body .section_principale .section6
+{
+    display : flex ;
+    justify-content: space-around ;
+    line-height : 2 ;
+}
+
+body .section_principale .section6 .div1_section6 
+{
+    border : 2px #e96d9e solid ;
+    border-radius : 20px ;
+    width: 500px ;
+    height: 300px ;
+    background-image: url("img2/the-cake-g708aaa2a7_1920.jpg") ;
+    background-size : cover ;
+}
+
+body .section_principale .section6 .div1_section6 #span1_div1_section6
+{
+    width : 45% ;
+    height : 50px ;
+    background-color : #fc0467 ;
+    color : #fffae1 ;
+    text-align : center ;
+    float : right ;
+    margin : 70px -160px 0 0 ;
+    padding-top : 8px ;
+    box-shadow : 6px 6px 0px #e96d9e ;
+}
+
+body .section_principale .section6 .div1_section6:hover + .div2_section6
+{
+    visibility : visible ;
+}
+
+body .section_principale .section6 .div2_section6 
+{
+    width: 250px ;
+    height: 200px ;
+    align-self: center ;
+    text-align : center ;
+    visibility : hidden ;
+    transition : visibility 1s linear ;
+}
+
+body .section_principale .section7
+{
+    display : flex ;
+    justify-content: space-around ;
+    flex-direction : row-reverse ;
+    line-height : 2 ;
+}
+
+body .section_principale .section7 .div1_section7
+{
+    border : 2px #0066cc solid ;
+    border-radius : 20px ;
+    width: 500px ;
+    height: 300px ;
+    background-image : url("img2/tart-g218405da2_1920.jpg") ;
+    background-size : cover ;
+}
+
+body .section_principale .section7 .div1_section7 #span1_div1_section7
+{
+    width : 45% ;
+    height : 50px ;
+    background-color : #074783 ;
+    color : #fffae1 ;
+    text-align : center ;
+    float : left ;
+    margin : 70px 0 0 -160px ;
+    padding-top : 8px ;
+    box-shadow : -6px 6px 0px #0066cc ;
+} 
+
+body .section_principale .section7 .div1_section7:hover + .div2_section7
+{
+    visibility : visible ;
+}
+
+body .section_principale .section7 .div2_section7 
+{
+    width: 250px ;
+    height: 200px ;
+    align-self: center ;
+    text-align : center ;
+    visibility : hidden ;
+    transition : visibility 1s linear ;
+}
+
+
+body .section8
+{
+    border : 2px #e96d9e solid ;
+    border-radius : 20px ;
+    width : 40% ;
+    overflow: hidden ;
+    margin : auto ;
+}
+
+body .section8 .div1_section8
+{
+    display : flex ;
+
+    -webkit-animation-name : diapo3 ;
+    -webkit-animation-duration : 20s ;
+    -webkit-animation-timing-function : linear ;
+    -webkit-animation-iteration-count : infinite ;
+    -webkit-animation-duration : normal ;
+
+    -moz-animation-name : diapo3 ;
+    -moz-animation-duration : 20s ;
+    -moz-animation-timing-function : linear ;
+    -moz-animation-iteration-count : infinite ;
+    -moz-animation-duration : normal ;
+
+    -o-animation-name : diapo3 ;
+    -o-animation-duration : 20s ;
+    -o-animation-timing-function : linear ;
+    -o-animation-iteration-count : infinite ;
+    -o-animation-duration : normal ;
+
+    animation-name : diapo3 ;
+    animation-duration : 20s ;
+    animation-timing-function : linear ;
+    animation-iteration-count : infinite ;
+    animation-duration : normal ;
+}
+
+@keyframes diapo3
+{
+    0% {
+        transform : translateX(0px) ;
+    }
+
+    14% {
+        transform : translateX(-127px) ;
+    }
+
+    28% {
+        transform : translateX(-254px) ;
+    }
+
+    42% {
+        transform : translateX(-381px) ;
+    }
+
+    56% {
+        transform : translateX(-508px) ;
+    }
+
+    70% {
+        transform : translateX(-635px) ;
+    }
+
+    84% {
+        transform : translateX(-762px) ;
+    }
+
+    95% {
+        transform : translateX(-889px) ;
+    }
+
+    100% {
+        transform : translateX(0px) ;
+    }
+    
+}
+
+@-webkit-keyframes diapo3
+{
+    0% {
+        transform : translateX(0px) ;
+    }
+
+    14% {
+        transform : translateX(-127px) ;
+    }
+
+    28% {
+        transform : translateX(-254px) ;
+    }
+
+    42% {
+        transform : translateX(-381px) ;
+    }
+
+    56% {
+        transform : translateX(-508px) ;
+    }
+
+    70% {
+        transform : translateX(-635px) ;
+    }
+
+    84% {
+        transform : translateX(-762px) ;
+    }
+
+    95% {
+        transform : translateX(-889px) ;
+    }
+
+    100% {
+        transform : translateX(0px) ;
+    }
+    
+}
+
+@-moz-keyframes diapo3
+{
+    0% {
+        transform : translateX(0px) ;
+    }
+
+    14% {
+        transform : translateX(-127px) ;
+    }
+
+    28% {
+        transform : translateX(-254px) ;
+    }
+
+    42% {
+        transform : translateX(-381px) ;
+    }
+
+    56% {
+        transform : translateX(-508px) ;
+    }
+
+    70% {
+        transform : translateX(-635px) ;
+    }
+
+    84% {
+        transform : translateX(-762px) ;
+    }
+
+    95% {
+        transform : translateX(-889px) ;
+    }
+
+    100% {
+        transform : translateX(0px) ;
+    }
+    
+}
+
+@-o-keyframes diapo3
+{
+    0% {
+        transform : translateX(0px) ;
+    }
+
+    14% {
+        transform : translateX(-127px) ;
+    }
+
+    28% {
+        transform : translateX(-254px) ;
+    }
+
+    42% {
+        transform : translateX(-381px) ;
+    }
+
+    56% {
+        transform : translateX(-508px) ;
+    }
+
+    70% {
+        transform : translateX(-635px) ;
+    }
+
+    84% {
+        transform : translateX(-762px) ;
+    }
+
+    95% {
+        transform : translateX(-889px) ;
+    }
+
+    100% {
+        transform : translateX(0px) ;
+    }
+    
+}
+
+body .section9
+{
+    display : flex ;
+    height : 333px ;
+    justify-content : space-evenly ;
+}
+
+body .section9 .div1_section9 
+{
+    border : 2px #e96d9e solid ;
+    border-radius : 20px ;
+    width : 500px ;
+    height : 310px ;
+    overflow : hidden ;
+}
+
+body .section9 .div1_section9 .div1_div1_section9
+{
+    display : flex ;
+    flex-direction: column ;
+
+
+    -webkit-animation-name : diapo4 ;
+    -webkit-animation-duration : 25s ;
+    -webkit-animation-timing-function : linear ;
+    -webkit-animation-iteration-count : infinite  ;
+    -webkit-animation-direction : alternate ;
+
+    -moz-animation-name : diapo4 ;
+    -moz-animation-duration : 25s ;
+    -moz-animation-timing-function : linear ;
+    -moz-animation-iteration-count : infinite  ;
+    -moz-animation-direction : alternate ;
+
+    -o-animation-name : diapo4 ;
+    -o-animation-duration : 25s ;
+    -o-animation-timing-function : linear ;
+    -o-animation-iteration-count : infinite  ;
+    -o-animation-direction : alternate ;
+
+    animation-name : diapo4 ;
+    animation-duration : 25s ;
+    animation-timing-function : linear ;
+    animation-iteration-count : infinite  ;
+    animation-direction : alternate ;
+}
+
+@-webkit-keyframes diapo4
+{
+    0% {
+        transform : translateY(0px) ;
+    }
+
+    14.28% {
+        transform : translateY(0px) ;
+    }
+
+    28.58% {
+        transform : translateY(-333px) ;
+    }
+
+    42.87% {
+        transform : translateY(-333px) ;
+    }
+
+    57.16% {
+        transform : translateY(-666px) ;
+    }
+
+    71.45% {
+        transform : translateY(-666px) ;
+    }
+
+    85.74% {
+        transform : translateY(-999px) ;
+    }
+
+    100% {
+        transform : translateY(-999px) ;
+    }
+
+}
+
+@-moz-keyframes diapo4
+{
+    0% {
+        transform : translateY(0px) ;
+    }
+
+    14.28% {
+        transform : translateY(0px) ;
+    }
+
+    28.58% {
+        transform : translateY(-333px) ;
+    }
+
+    42.87% {
+        transform : translateY(-333px) ;
+    }
+
+    57.16% {
+        transform : translateY(-666px) ;
+    }
+
+    71.45% {
+        transform : translateY(-666px) ;
+    }
+
+    85.74% {
+        transform : translateY(-999px) ;
+    }
+
+    100% {
+        transform : translateY(-999px) ;
+    }
+
+}
+
+@-o-keyframes diapo4
+{
+    0% {
+        transform : translateY(0px) ;
+    }
+
+    14.28% {
+        transform : translateY(0px) ;
+    }
+
+    28.58% {
+        transform : translateY(-333px) ;
+    }
+
+    42.87% {
+        transform : translateY(-333px) ;
+    }
+
+    57.16% {
+        transform : translateY(-666px) ;
+    }
+
+    71.45% {
+        transform : translateY(-666px) ;
+    }
+
+    85.74% {
+        transform : translateY(-999px) ;
+    }
+
+    100% {
+        transform : translateY(-999px) ;
+    }
+
+}
+
+@keyframes diapo4
+{
+    0% {
+        transform : translateY(0px) ;
+        border-color : #e96d9e ; 
+    }
+
+    14.28% {
+        transform : translateY(0px) ;
+    }
+
+    28.58% {
+        transform : translateY(-333px) ;
+    }
+
+    42.87% {
+        transform : translateY(-333px) ;
+    }
+
+    57.16% {
+        transform : translateY(-666px) ;
+    }
+
+    71.45% {
+        transform : translateY(-666px) ;
+    }
+
+    85.74% {
+        transform : translateY(-999px) ;
+    }
+
+    100% {
+        transform : translateY(-999px) ;
+    }
+
+}
+
+
+body .section9 .div2_section9
+{
+    height : 310px ;
+    overflow : hidden ;
+}
+
+body .section9 .div2_section9 .div1_div2_section9 p
+{
+    width : 400px ;
+    height : 310px ;
+    text-align : center ;
+    line-height : 2 ;
+}
+
+body .section9 .div2_section9 .div1_div2_section9
+{
+    display : flex ;
+    flex-direction : column ;
+    
+    -webkit-animation-name : diapo4 ;
+    -webkit-animation-duration : 25s ;
+    -webkit-animation-timing-function : linear ;
+    -webkit-animation-iteration-count : infinite  ;
+    -webkit-animation-direction : alternate ;
+
+    -moz-animation-name : diapo4 ;
+    -moz-animation-duration : 25s ;
+    -moz-animation-timing-function : linear ;
+    -moz-animation-iteration-count : infinite  ;
+    -moz-animation-direction : alternate ;
+
+    -o-animation-name : diapo4 ;
+    -o-animation-duration : 25s ;
+    -o-animation-timing-function : linear ;
+    -o-animation-iteration-count : infinite  ;
+    -o-animation-direction : alternate ;
+
+    animation-name : diapo4 ;
+    animation-duration : 25s ;
+    animation-timing-function : linear ;
+    animation-iteration-count : infinite  ;
+    animation-direction : alternate ;
+
+
+}
+
+body .section10
+{
+    width : 30% ;
+    margin : auto ;
+    padding : 5% ;
+    border : 2px #e96d9e solid ;
+    border-radius : 20px ;
+}
+
+body .section10 form .p1_form
+{
+    display : flex ;
+    flex-direction : column ;
+    justify-content : space-evenly ;
+    height : 400px ;
+}
+
+body .section10 form .p1_form label
+{
+    align-self : center ;
+    font-size : 2em ;
+    color : blue ;
+}
+
+body .section10 form .p1_form textarea
+{
+    border : 2px blue solid ;
+    border-radius : 10px ;
+    outline : none ;
+}
+
+body .section10 form .p1_form input
+{
+    border : 2px blue solid ;
+    border-radius : 10px ;
+    outline : none ;
+    padding : 2% ;
+}
+
+body .section10 form .p1_form #bouton_envoyer
+{
+    width : 30% ;
+    margin : 0 auto ;
+}
+
+body .section10 form .p1_form #bouton_envoyer:hover
+{
+    background-color : #e96d9e ;
+    cursor : pointer ;
+}
+
+body .section10 form .p1_form #email:focus , body .section10 form .p1_form #commentaire:focus
+{
+    background-color : #EAE0DA ;
+}
+
+body footer 
+{
+    height: 300px ;
+    display: flex ;
+    justify-content: space-around ;
+    align-items : center ;
+    background-color: rgb(34, 27, 27) ;
+    color : #fff ;
+    
+}
+
+.div1_footer , .div2_footer , .div3_footer , .div4_footer
+{
+    display : flex ; 
+    flex-direction: column ;
+    justify-content: space-evenly ;
+    height: 200px ;
+}
+
+body footer .div1_footer .div1_1_footer
+{
+    display : flex ;
+    flex-direction : column ;
+    justify-content : space-evenly ;
+    align-self: center ;
+    height : 100px ;
+}
+
+.div2_footer a , .div3_footer a , .div4_footer a
+{
+    text-decoration : none ;
+    color :#e96d9e ;
+}
+
+.span1_div2_footer ,  .span1_div3_footer , .span1_div4_footer
+{
+    font-size: 2em ;
+    align-self: center ;
+}
+
+.span1_div1_footer
+{
+    font-size: 2em ;
+}
+
+
+body footer .div1_1_footer a
+{
+    font-size: 1.3em ;
+    color :#e96d9e ;
+}
+
+footer a:hover , footer i:hover
+{
+    color : #0066cc ;
+}
+
+
+
+/*-------------------------------------------- Media Queries ---------------------------------------*/
+
+
+/*@media screen and (max-width : 460px)
+{
+    body header .div1_header .div1_1_header
+    {
+        display : none ;
+        background-color : blue ;
+    }
+
+    nav
+    {
+        display : none ;
+    }
+
+    .div1_header
+    {
+        display : flex ;
+        flex-direction : column ;
+    }
+
+    .div1_1_header , .div1_2_header
+    {
+        border : 1px green solid ;
+    }
+
+    .div1_2_header
+    {
+        width : 100px ;
+    }
+
+    
+
+    .div2_header
+    {
+        position : absolute ;
+        left : 2px ;
+        font-size : 0.5em ;
+        display : none ;
+    }
+
+
+    
+}*/
+
+/*@media screen and (max-width : 900px) 
+{
+    body header .div1_header .div1_1_header
+    {
+        display : none ;
+        background-color : blue ;
+    }
+
+    nav
+    {
+        display : none ;
+    }
+
+    .div2_header
+    {
+        width : 70% ;
+        margin : auto ;
+    }
+}*/
+
